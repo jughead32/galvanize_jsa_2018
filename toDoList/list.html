@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+    <meta charset="utf-8">
+    <title>Get Stuff Done</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <h1>Get Stuff Done</h1>
+
+    <div>
+      <form>
+        <h3>What do you need to do today?</h3>
+        <input id="task" type="text" placeholder="ex. Wash dishes" />
+        <input type="button" value="Submit" onclick="addToList()" />
+      </form>
+    </div>
+
+    <br>
+
+    <div id="display"></div>
+
+    <script src='main.js'></script>
+  </body>
+</html>
