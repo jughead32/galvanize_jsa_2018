@@ -1,13 +1,17 @@
 
 // 1. Create a function called funnyString that simply returns a string that contains the word 'funny'
 //    when it is returned.
+function funnyString () {
+  return 'funny'
+}
 
 
 // 2. Define a function called "divideByTwo".
 //    It should accept one parameter that is divided by two and returned.
 function divideByTwo (p1) {
-  return p1 / 2;
+  return p1 / 2
 }
+divideByTwo (4)
 
 
 // 3. Define a function called "greeting" with two paramters that are people's names.
@@ -17,19 +21,23 @@ function greeting (steve, mary) {
 }
 
 // 4. Create a function called avgNum that finds the average of 6 numbers passed in when called.
-
+function avgNum(p1,p2,p3,p4,p5,p6) {
+  return (p1 + p2 + p3 + p4 + p5 + p6) / 6
+}
 
 // 5. You use Amazon Subscribe & Save to have six cans of cashews automatically sent to you each month. Write a function called "totalPrice" that takes the price per unit as an argument and calculates the total for you each month.
-
+function totalPrice(cashew){
+  return cashew * 6
+}
 
 // 6. Define functions called "area" and "perimeter". They should both accept two parameters and calculate the area and perimeter of a rectangle.
-function area (base,height) {
-  return base * height;
+function area(base,height) {
+  return base * height
 }
-function perimeter {
-  return ((base * 2) + (height * 2));
-}
+function perimeter(base, height) {
+  return (base * 2) + (height * 2)
 
+}
 // 7. Define a function called "quarter". It accepts one parameter called "number".
 //    The function will return a value which is one quarter of the number provided.
 function quarter (number) {
@@ -39,12 +47,18 @@ function quarter (number) {
 
 // 8. Develop a function called ageToYear that determines a person's age by asking them for their birth year. You can hard-code 2017.
 // STRETCH GOAL: Use the Javascript Date object
+// function ageToYear(year) {
+//   return 2017 - year
+// }
 
 
 // 9. Allow a user to enter a number.
 //     Write a function called addDigits that adds the numbers together.
 //     Hint #1: You need to turn a string into an integer.
 //     Hint #2: Strings can be treated as arrays too.
+function addDigits(newNum,newStr){
+  return newNum + (Number(newStr))
+}
 
 
 // 10. You've finally gotten around to counting the change in your piggy bank.
@@ -52,9 +66,6 @@ function quarter (number) {
 //     The function should take each number of coins and multiply it times each coin's value.
 //     Finally, it should return the total amount of change you have in the following format: "$32.77"
 //     HINT: Understanding the toFixed method will help you with the format.
-function counting (quarter, dimes, nickels, pennies) {
-
-}
 
 
 // ADVANCED TRACK
