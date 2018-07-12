@@ -47,9 +47,9 @@ function quarter (number) {
 
 // 8. Develop a function called ageToYear that determines a person's age by asking them for their birth year. You can hard-code 2017.
 // STRETCH GOAL: Use the Javascript Date object
-// function ageToYear(year) {
-//   return 2017 - year
-// }
+function ageToYear(year) {
+  return 2017 - year
+}
 
 
 // 9. Allow a user to enter a number.
